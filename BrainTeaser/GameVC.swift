@@ -71,6 +71,8 @@ class GameVC: UIViewController {
         }
         else {
             timer.invalidate()
+            yesBtn.enabled = false
+            noBtn.enabled = false
             performSegueWithIdentifier("GoToScoreMenu", sender: self)
         }
     }
