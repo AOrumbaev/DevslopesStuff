@@ -15,7 +15,7 @@ class Card: UIView {
     var currentShape : String!
     
     @IBOutlet weak var shapeImage: UIImageView!
-    
+    //faejiajeigjiaeg
     @IBInspectable var cornerRadius : CGFloat = 3.0 {
         didSet {
             setupView()
